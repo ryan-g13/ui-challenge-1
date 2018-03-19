@@ -1,7 +1,16 @@
 @media only screen and (min-width: 800px) {
-
+  
+  .borders {
+    border: 1px solid lightslategray;
+    box-sizing: border-box;
+  }
   body {
     max-width: 960px;
+    text-align: center;
+    margin: 0 auto; 
+  }
+  p {
+    margin: 0;
   }
   #a {
     background-color: blue;

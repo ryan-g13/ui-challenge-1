@@ -1,4 +1,6 @@
 body {
+  margin: 0 auto;
+  text-align: center;
   min-width: 480px;
   padding-right: 16px;
   padding-left: 16px;
@@ -6,6 +8,17 @@ body {
   padding-bottom: 15px;
 }
 
+.borders {
+  border: 1px solid lightslategray;
+  box-sizing: border-box;
+}
+.vertical {
+  position: relative;
+  top: 40%;
+}
+p {
+  margin: 0;
+}
 #a {
   background-color: aqua;
   height: 75px;
